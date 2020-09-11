@@ -1,4 +1,7 @@
+
 def getLetterGrade(scoreGrade):
+  scoreGrade = float(input("Enter your CMPSC 131 grade: "))
+  letterGrade = ""
   if scoreGrade >= 93.0: 
     letterGrade = "A"
   elif scoreGrade <= 93.0 and scoreGrade >= 90.0: 
@@ -17,7 +20,6 @@ def getLetterGrade(scoreGrade):
     letterGrade = "D"
   else: 
     letterGrade = "F"
-
   print(f"Your letter grade for CMPSC 131 is {letterGrade}. ")
 
   if __name__== "__main__":
