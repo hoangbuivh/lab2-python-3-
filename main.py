@@ -14,7 +14,7 @@ def getLetterGrade(scoreGrade):
   elif scoreGrade <= 77.0 and scoreGrade >= 70.0: 
     letterGrade = "C"
   elif scoreGrade <= 70.0 and scoreGrade >= 60.0: 
-    letterGrade = "F"
+    letterGrade = "D"
   else: 
     letterGrade = "F"
 
